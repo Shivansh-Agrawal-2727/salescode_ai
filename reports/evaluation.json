@@ -1,0 +1,31 @@
+{
+  "accuracy": 0.9615384615384616,
+  "classification_report": "              precision    recall  f1-score   support\n\n        real       0.93      1.00      0.96        13\n      screen       1.00      0.92      0.96        13\n\n    accuracy                           0.96        26\n   macro avg       0.96      0.96      0.96        26\nweighted avg       0.96      0.96      0.96        26\n",
+  "confusion_matrix": [
+    [
+      13,
+      0
+    ],
+    [
+      1,
+      12
+    ]
+  ],
+  "cross_validation_accuracy": {
+    "folds": 5,
+    "mean": 0.9619047619047618,
+    "std": 0.03563483225498992,
+    "scores": [
+      0.9047619047619048,
+      0.9523809523809523,
+      0.9523809523809523,
+      1.0,
+      1.0
+    ]
+  },
+  "total_images": 104,
+  "class_counts": {
+    "real": 52,
+    "screen": 52
+  }
+}
